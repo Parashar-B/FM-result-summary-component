@@ -4,29 +4,29 @@ export default function SummarySection(){
 
     const colorArr = [
         {
-            bg: 'bg-[#ffe6e6]',
+            bg: 'bg-[#fcf2f2]',
             text: 'text-[#ff5757]'
         },
         {
-            bg:'#fff6e6',
-            text:'#ffb833'
+            bg:'bg-[#fff6e6]',
+            text:'text-[#ffb833]'
         },
         {
-            bg:'#33ffcf',
-            text:'#00bd91'
+            bg:'bg-[#e6fff9]',
+            text:'text-[#00bd91]'
         },
         {
-            bg:'#ebf1ff',
-            text: '#c8c7ff'
+            bg:'bg-[#ebf1ff]',
+            text: 'text-[#1125d4]'
         }
     ]
 
     console.log(data)
 
     return(
-        <div className="w-[50%] h-full py-[1rem] px-[2rem] rounded-[30px]">
+        <div className="md:w-[50%] h-[500px] md:h-full py-[1rem] px-[2rem] rounded-[30px]">
             <div className=" h-[15%] flex items-center">
-                <h1 className="text-[20px] font-semibold tracking-wider">Summary</h1>
+                <h1 className="text-[20px] font-bold tracking-wider">Summary</h1>
             </div>
             <div className=" h-[55%] flex flex-col justify-center">
                 {
